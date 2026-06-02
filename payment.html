@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="checkout-page">
+
+    <div class="container checkout-container">
+
+        <!-- Left Side -->
+
+        <div class="checkout-left">
+
+            <p class="sub-heading">Checkout</p>
+
+            <h2>Contact Details</h2>
+
+            <label>Email ID</label>
+            <input type="email" placeholder="John Doe">
+
+            <h2>Payment</h2>
+
+            <div class="payment-card">
+
+                <div class="payment-methods">
+
+                    <button class="active">💳 Card</button>
+                    <button>₿ Crypto</button>
+                    <button>🏦 Bank</button>
+                    <button>⋮</button>
+
+                </div>
+
+                <label>Card Number</label>
+                <input type="text" placeholder="1234 5678 9012 3456">
+
+                <div class="row">
+                    <div>
+                        <label>Expiry</label>
+                        <input type="text" placeholder="MM/YY">
+                    </div>
+
+                    <div>
+                        <label>CVV</label>
+                        <input type="text" placeholder="123">
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div>
+                        <label>Country</label>
+                        <input type="text" placeholder="India">
+                    </div>
+
+                    <div>
+                        <label>ZIP Code</label>
+                        <input type="text" placeholder="110001">
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="checkout-right">
+
+            <h1>Order Summary</h1>
+
+            <div class="summary-card">
+
+                <label>Enter Coupon Code</label>
+
+                <div class="coupon-box">
+                    <input type="text" placeholder="COUPON CODE">
+                    <button>Apply Coupon</button>
+                </div>
+
+                <div class="bill-row">
+                    <span>Sub Total</span>
+                    <span>₹4,700</span>
+                </div>
+
+                <div class="bill-row">
+                    <span>Taxes</span>
+                    <span>₹199</span>
+                </div>
+
+                <div class="bill-row">
+                    <span>Discount</span>
+                    <span>₹0</span>
+                </div>
+
+                <hr>
+
+                <div class="bill-row total">
+                    <span>Total</span>
+                    <span>₹4,899</span>
+                </div>
+
+            </div>
+
+            <button class="pay-btn">
+                Pay Now ₹4,899
+            </button>
+
+            <div class="payment-image">
+                <img src="https://razorpay.com/newsroom-content/uploads/2020/12/output-onlinepngtools-1-1.png" alt="Razorpay">
+                <img src="https://assets.weforum.org/organization/image/UlzC0g30GtgGv-WStLv81kwMCKrpTV_L2EAMwX_YHqU.jpg" alt="Visa">
+                <img src="https://www.investopedia.com/thmb/F8CKM3YkF1fmnRCU2g4knuK0eDY=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/MClogo-c823e495c5cf455c89ddfb0e17fc7978.jpg" alt="MasterCard">
+            </div>
+
+        </div>
+
+    </div>
+
+</main>
+</body>
+</html>
